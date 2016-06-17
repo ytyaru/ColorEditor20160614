@@ -37,7 +37,7 @@ namespace ColorEditor20160614
             this.trackBar3ValueChanged += new System.EventHandler(this.trackBar3_ValueChanged);
 
             this.numericUpDown1.ValueChanged += this.numericUpDown1ValueChanged;
-            this.numericUpDown1.ValueChanged += this.numericUpDown2ValueChanged;
+            this.numericUpDown2.ValueChanged += this.numericUpDown2ValueChanged;
             this.numericUpDown3.ValueChanged += this.numericUpDown3ValueChanged;
 
             this.trackBar1.ValueChanged += this.trackBar1ValueChanged;
